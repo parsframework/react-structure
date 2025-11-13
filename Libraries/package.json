@@ -1,0 +1,41 @@
+{
+
+"name": "ParsFramework",
+
+"version": "1.0.0",
+
+"description": "Comprehensive tools for developers and users",
+
+"main": "index.umd.js",
+
+"module": "index.esm.js",
+
+"type": "module",
+
+"scripts": {
+"build": "rollup -c"
+},
+
+"files": [
+"Os/",
+"index.esm.js",
+"index.umd.js"
+],
+
+"keywords": [
+"javascript",
+"library",
+"esm",
+"umd",
+"multi-module"
+],
+
+"author": "Your Name",
+
+"license": "MIT",
+
+"devDependencies": {
+"rollup": "^3.29.4"
+}
+
+}
